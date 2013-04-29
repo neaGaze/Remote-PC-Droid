@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="connection" size="4164,3319" id="org.techgaun.android.remotepcdroid.client.activity.connection" metadata="uml2-1.0" initialized="true" scrolledX="-139" tag="1000" key="32303037303533312D313030302052656D6F7465504344726F696420436C69656E742F73616D6172">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.17/@sourceConnections.2 //@children.2/@sourceConnections.4 //@children.1/@sourceConnections.2" name="ConnectionList" location="-140,720" size="321,225" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,162">
+      <children xsi:type="editmodel:MethodEditModel" name="ConnectionList" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList#ConnectionList(Landroid.content.SharedPreferences;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList#add()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList#get(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCount" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList#getCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsedPosition" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList#getUsedPosition()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList#remove(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="save" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList#save()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sort" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList#sort()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="use" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList#use(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList->org.techgaun.android.remotepcdroid.client.connection/Connection*org.techgaun.android.remotepcdroid.client.connection/ConnectionList-Soyatec::Import->org.techgaun.android.remotepcdroid.client.connection/Connection" source="//@children.0" target="//@children.17" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="291,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,192"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionList->org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi" source="//@children.0" target="//@children.18" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="73,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="320,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,189"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RemotePCDroidConnListActivity" location="-138,510" size="284,140" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,90">
+      <children xsi:type="editmodel:MethodEditModel" name="onClick" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity#onClick(Landroid.content.DialogInterface;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onItemClick" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity#onItemClick(Landroid.widget.AdapterView;Landroid.view.View;IJ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onItemLongClick" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity#onItemLongClick(Landroid.widget.AdapterView;Landroid.view.View;IJ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onOptionsItemSelected" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity#onOptionsItemSelected(Landroid.view.MenuItem;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity->org.techgaun.android.remotepcdroid.client.connection/Connection*org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity-Soyatec::Import->org.techgaun.android.remotepcdroid.client.connection/Connection" source="//@children.1" target="//@children.17" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="242,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="11,207"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity->org.techgaun.android.remotepcdroid.client.app/RemotePCDroid*org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity-Soyatec::Import->org.techgaun.android.remotepcdroid.client.app/RemotePCDroid" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="284,69" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,159"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity->org.techgaun.android.remotepcdroid.client.connection/ConnectionList*org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnListActivity-Soyatec::Import->org.techgaun.android.remotepcdroid.client.connection/ConnectionList" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,140" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.17/@sourceConnections.0 //@children.18/@sourceConnections.1 //@children.1/@sourceConnections.1" name="RemotePCDroid" location="555,420" size="281,279" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid">
+    <children xsi:type="editmodel:CompartmentEditModel" size="196,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="preferences" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#preferences"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,198">
+      <children xsi:type="editmodel:MethodEditModel" name="isInternalToast" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#isInternalToast()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#onCreate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerActionReceiver" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#registerActionReceiver(Lorg.techgaun.remotepcdroid.protocol.RemotePCDroidActionReceiver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendAction" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#sendAction(Lorg.techgaun.remotepcdroid.protocol.action.RemotePCDroidAction;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showInternalToast" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#showInternalToast(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showInternalToast" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#showInternalToast(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showToast" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#showToast(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showToast" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#showToast(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unregisterActionReceiver" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#unregisterActionReceiver(Lorg.techgaun.remotepcdroid.protocol.RemotePCDroidActionReceiver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="vibrate" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid#vibrate(J)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid->org.techgaun.android.remotepcdroid.client.connection/Connection*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.android.remotepcdroid.client.connection/Connection" source="//@children.2" target="//@children.17" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="321,186"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection" source="//@children.2" target="//@children.16" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,251" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="217,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.2" target="//@children.14" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,279" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="190,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid->org.techgaun.remotepcdroid.protocol.action/AuthenticationAction" source="//@children.2" target="//@children.8" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="73,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="207,279" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid->org.techgaun.android.remotepcdroid.client.connection/ConnectionList*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid->org.techgaun.android.remotepcdroid.client.connection/ConnectionList*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.android.remotepcdroid.client.connection/ConnectionList" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.4/@children.2" label="//@children.2/@sourceConnections.4/@children.0" sourceEnd="//@children.2/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="140,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,196" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="321,47"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Access->org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction" source="//@children.2" target="//@children.9" targetEnd="//@children.2/@sourceConnections.5/@children.2" label="//@children.2/@sourceConnections.5/@children.0" sourceEnd="//@children.2/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access»" size="93,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="211,279" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.app/RemotePCDroid->org.techgaun.remotepcdroid.protocol/RemotePCDroidActionReceiver*org.techgaun.android.remotepcdroid.client.app/RemotePCDroid-Soyatec::Import->org.techgaun.remotepcdroid.protocol/RemotePCDroidActionReceiver" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.6/@children.2" label="//@children.2/@sourceConnections.6/@children.0" sourceEnd="//@children.2/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,279" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="166,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.6" name="RemotePCDroidActionReceiver" location="255,1005" size="274,94" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidActionReceiver">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,18">
+      <children xsi:type="editmodel:MethodEditModel" name="receiveAction" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidActionReceiver#receiveAction(Lorg.techgaun.remotepcdroid.protocol.action.RemotePCDroidAction;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidActionReceiver-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.3" target="//@children.14" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="137,94" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.2" name="FileExploreResponseAction" location="915,1647" size="264,153" id="org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="directory" id="org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction#directory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="files" id="org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction#files"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="177,54">
+      <children xsi:type="editmodel:MethodEditModel" name="FileExploreResponseAction" id="org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction#FileExploreResponseAction(Ljava.lang.String;[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction" source="//@children.4" target="//@children.10/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.4" target="//@children.14" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,228"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.8" name="KeyboardAction" location="265,1455" size="264,153" id="org.techgaun.remotepcdroid.protocol.action/KeyboardAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="155,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="uNICODE_BACKSPACE" id="org.techgaun.remotepcdroid.protocol.action/KeyboardAction#uNICODE_BACKSPACE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="unicode" id="org.techgaun.remotepcdroid.protocol.action/KeyboardAction#unicode"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,54">
+      <children xsi:type="editmodel:MethodEditModel" name="KeyboardAction" id="org.techgaun.remotepcdroid.protocol.action/KeyboardAction#KeyboardAction(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/KeyboardAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/KeyboardAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/KeyboardAction" source="//@children.5" target="//@children.10/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/KeyboardAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/KeyboardAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.5" target="//@children.14" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,279"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.3" name="ScreenCaptureResponseAction" location="540,1665" size="273,135" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureResponseAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="data" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureResponseAction#data"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ScreenCaptureResponseAction" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureResponseAction#ScreenCaptureResponseAction([B)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureResponseAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureResponseAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/ScreenCaptureResponseAction" source="//@children.6" target="//@children.10/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureResponseAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/ScreenCaptureResponseAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.6" target="//@children.14" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="273,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="240,279"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.7" name="FileExploreRequestAction" location="963,1470" size="264,153" id="org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="directory" id="org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction#directory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="file" id="org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction#file"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="168,54">
+      <children xsi:type="editmodel:MethodEditModel" name="FileExploreRequestAction" id="org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction#FileExploreRequestAction(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction" source="//@children.7" target="//@children.10/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.7" target="//@children.14" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,209"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.3 //@children.14/@sourceConnections.1" name="AuthenticationAction" location="690,1395" size="264,135" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="password" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationAction#password"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,54">
+      <children xsi:type="editmodel:MethodEditModel" name="AuthenticationAction" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationAction#AuthenticationAction(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/AuthenticationAction" source="//@children.8" target="//@children.10/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/AuthenticationAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.8" target="//@children.14" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="259,279"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.5 //@children.14/@sourceConnections.5" name="AuthenticationResponseAction" location="960,1284" size="270,135" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="155,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="authentificated" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction#authentificated"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="198,54">
+      <children xsi:type="editmodel:MethodEditModel" name="AuthenticationResponseAction" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction#AuthenticationResponseAction(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction" source="//@children.9" target="//@children.10/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.9" target="//@children.14" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,71" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,231"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.9" name="MouseMoveAction" location="-90,1215" size="264,153" id="org.techgaun.remotepcdroid.protocol.action/MouseMoveAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="moveX" id="org.techgaun.remotepcdroid.protocol.action/MouseMoveAction#moveX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="moveY" id="org.techgaun.remotepcdroid.protocol.action/MouseMoveAction#moveY"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,54">
+      <children xsi:type="editmodel:MethodEditModel" name="MouseMoveAction" id="org.techgaun.remotepcdroid.protocol.action/MouseMoveAction#MouseMoveAction(SS)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/MouseMoveAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/MouseMoveAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.12/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.6/@sourceConnections.0 //@children.11/@sourceConnections.0 //@children.4/@sourceConnections.0 //@children.7/@sourceConnections.0 //@children.13/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.9/@sourceConnections.0" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/MouseMoveAction" source="//@children.10" target="//@children.14" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,40" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,175" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/MouseMoveAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/MouseMoveAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.10" target="//@children.14" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,96" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,155"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.6" name="MouseWheelAction" location="219,1635" size="264,135" id="org.techgaun.remotepcdroid.protocol.action/MouseWheelAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="amount" id="org.techgaun.remotepcdroid.protocol.action/MouseWheelAction#amount"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,54">
+      <children xsi:type="editmodel:MethodEditModel" name="MouseWheelAction" id="org.techgaun.remotepcdroid.protocol.action/MouseWheelAction#MouseWheelAction(B)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/MouseWheelAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/MouseWheelAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/MouseWheelAction" source="//@children.11" target="//@children.10/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/MouseWheelAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/MouseWheelAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.11" target="//@children.14" targetEnd="//@children.11/@sourceConnections.1/@children.2" label="//@children.11/@sourceConnections.1/@children.0" sourceEnd="//@children.11/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,279"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.0" name="MouseClickAction" location="-111,1410" size="264,261" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="bUTTON_LEFT" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#bUTTON_LEFT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bUTTON_MIDDLE" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#bUTTON_MIDDLE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bUTTON_NONE" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#bUTTON_NONE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bUTTON_RIGHT" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#bUTTON_RIGHT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="button" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#button"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_DOWN" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#sTATE_DOWN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATE_UP" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#sTATE_UP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="state" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#state"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,54">
+      <children xsi:type="editmodel:MethodEditModel" name="MouseClickAction" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#MouseClickAction(BZ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/MouseClickAction" source="//@children.12" target="//@children.10/@sourceConnections.0" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/MouseClickAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/MouseClickAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.12" target="//@children.14" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,24" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,278"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.4" name="ScreenCaptureRequestAction" location="960,1035" size="264,207" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="fORMAT_JPG" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction#fORMAT_JPG"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fORMAT_PNG" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction#fORMAT_PNG"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="format" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction#format"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="height" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction#height"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="width" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction#width"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="190,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ScreenCaptureRequestAction" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction#ScreenCaptureRequestAction(SSB)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction&lt;-org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction" source="//@children.13" target="//@children.10/@sourceConnections.0" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.13" target="//@children.14" targetEnd="//@children.13/@sourceConnections.1/@children.2" label="//@children.13/@sourceConnections.1/@children.0" sourceEnd="//@children.13/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Derive»" size="90,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,136" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,31"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2 //@children.16/@sourceConnections.0 //@children.10/@sourceConnections.0 //@children.8/@sourceConnections.1 //@children.9/@sourceConnections.1 //@children.3/@sourceConnections.0 //@children.12/@sourceConnections.1 //@children.4/@sourceConnections.1 //@children.6/@sourceConnections.1 //@children.13/@sourceConnections.1 //@children.11/@sourceConnections.1 //@children.7/@sourceConnections.1 //@children.5/@sourceConnections.1 //@children.10/@sourceConnections.1" name="RemotePCDroidAction" location="260,1140" size="264,279" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="209,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="aUTHENTICATION" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#aUTHENTICATION"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="aUTHENTICATION_RESPONSE" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#aUTHENTICATION_RESPONSE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fILE_EXPLORE_REQUEST" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#fILE_EXPLORE_REQUEST"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fILE_EXPLORE_RESPONSE" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#fILE_EXPLORE_RESPONSE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="kEYBOARD" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#kEYBOARD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mOUSE_CLICK" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#mOUSE_CLICK"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mOUSE_MOVE" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#mOUSE_MOVE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mOUSE_WHEEL" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#mOUSE_WHEEL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sCREEN_CAPTURE_REQUEST" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#sCREEN_CAPTURE_REQUEST"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sCREEN_CAPTURE_RESPONSE" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#sCREEN_CAPTURE_RESPONSE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,36">
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#parse(Ljava.io.DataInputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toDataOutputStream" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction#toDataOutputStream(Ljava.io.DataOutputStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/MouseClickAction" source="//@children.14" target="//@children.12" targetEnd="//@children.14/@sourceConnections.0/@children.2" label="//@children.14/@sourceConnections.0/@children.0" sourceEnd="//@children.14/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,274" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,4"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/AuthenticationAction" source="//@children.14" target="//@children.8" targetEnd="//@children.14/@sourceConnections.1/@children.2" label="//@children.14/@sourceConnections.1/@children.0" sourceEnd="//@children.14/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,266" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,11"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/FileExploreResponseAction" source="//@children.14" target="//@children.4" targetEnd="//@children.14/@sourceConnections.2/@children.2" label="//@children.14/@sourceConnections.2/@children.0" sourceEnd="//@children.14/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,248" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/ScreenCaptureResponseAction" source="//@children.14" target="//@children.6" targetEnd="//@children.14/@sourceConnections.3/@children.2" label="//@children.14/@sourceConnections.3/@children.0" sourceEnd="//@children.14/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="220,279" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/ScreenCaptureRequestAction" source="//@children.14" target="//@children.13" targetEnd="//@children.14/@sourceConnections.4/@children.2" label="//@children.14/@sourceConnections.4/@children.0" sourceEnd="//@children.14/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,156"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/AuthenticationResponseAction" source="//@children.14" target="//@children.9" targetEnd="//@children.14/@sourceConnections.5/@children.2" label="//@children.14/@sourceConnections.5/@children.0" sourceEnd="//@children.14/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,211" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,67"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/MouseWheelAction" source="//@children.14" target="//@children.11" targetEnd="//@children.14/@sourceConnections.6/@children.2" label="//@children.14/@sourceConnections.6/@children.0" sourceEnd="//@children.14/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,279" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="152,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/FileExploreRequestAction" source="//@children.14" target="//@children.7" targetEnd="//@children.14/@sourceConnections.7/@children.2" label="//@children.14/@sourceConnections.7/@children.0" sourceEnd="//@children.14/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,189" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,26"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/KeyboardAction" source="//@children.14" target="//@children.5" targetEnd="//@children.14/@sourceConnections.8/@children.2" label="//@children.14/@sourceConnections.8/@children.0" sourceEnd="//@children.14/@sourceConnections.8/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,279" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction->org.techgaun.remotepcdroid.protocol.action/MouseMoveAction" source="//@children.14" target="//@children.10" targetEnd="//@children.14/@sourceConnections.9/@children.2" label="//@children.14/@sourceConnections.9/@children.0" sourceEnd="//@children.14/@sourceConnections.9/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,151" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,76"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.18/@sourceConnections.3" name="RemotePCDroidConnectionTcp" location="-75,1005" size="269,171" id="org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp">
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="dEFAULT_PORT" id="org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp#dEFAULT_PORT"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="194,90">
+      <children xsi:type="editmodel:MethodEditModel" name="RemotePCDroidConnectionTcp" id="org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp#RemotePCDroidConnectionTcp(Ljava.net.Socket;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="close" id="org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp#close()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="create" id="org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp#create(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInetAddress" id="org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp#getInetAddress()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPort" id="org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp#getPort()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection&lt;-org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp" source="//@children.15" target="//@children.16" targetEnd="//@children.15/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="231,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="34,153"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection" source="//@children.15" target="//@children.16" targetEnd="//@children.15/@sourceConnections.1/@children.2" label="//@children.15/@sourceConnections.1/@children.0" sourceEnd="//@children.15/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="211,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,153"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.17/@sourceConnections.1 //@children.2/@sourceConnections.1 //@children.15/@sourceConnections.0 //@children.18/@sourceConnections.2 //@children.15/@sourceConnections.1" name="RemotePCDroidConnection" location="239,750" size="244,153" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection">
+    <children xsi:type="editmodel:CompartmentEditModel" size="170,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="dEFAULT_PASSWORD" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection#dEFAULT_PASSWORD"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,72">
+      <children xsi:type="editmodel:MethodEditModel" name="RemotePCDroidConnection" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection#RemotePCDroidConnection(Ljava.io.InputStream;Ljava.io.OutputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="close" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection#close()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receiveAction" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection#receiveAction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendAction" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection#sendAction(Lorg.techgaun.remotepcdroid.protocol.action.RemotePCDroidAction;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction*org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection-Soyatec::Import->org.techgaun.remotepcdroid.protocol.action/RemotePCDroidAction" source="//@children.16" target="//@children.14" targetEnd="//@children.16/@sourceConnections.0/@children.2" label="//@children.16/@sourceConnections.0/@children.0" sourceEnd="//@children.16/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" location="362,1001" size="75,13" automaticRelocationAllowed="false" locationOnWireFromSource="-13.023389519057162" distanceFromWire="28.76441074374568" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,153" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.20/@sourceConnections.0 //@children.18/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.0/@sourceConnections.0 //@children.18/@sourceConnections.4 //@children.1/@sourceConnections.0" name="Connection" location="162,255" size="321,207" id="org.techgaun.android.remotepcdroid.client.connection/Connection">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="org.techgaun.android.remotepcdroid.client.connection/Connection#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="password" id="org.techgaun.android.remotepcdroid.client.connection/Connection#password"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Connection" id="org.techgaun.android.remotepcdroid.client.connection/Connection#Connection()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="org.techgaun.android.remotepcdroid.client.connection/Connection#compareTo(Lorg.techgaun.android.remotepcdroid.client.connection.Connection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="connect" id="org.techgaun.android.remotepcdroid.client.connection/Connection#connect(Lorg.techgaun.android.remotepcdroid.client.app.RemotePCDroid;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="edit" id="org.techgaun.android.remotepcdroid.client.connection/Connection#edit(Landroid.content.Context;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="load" id="org.techgaun.android.remotepcdroid.client.connection/Connection#load(Landroid.content.SharedPreferences;Lorg.techgaun.android.remotepcdroid.client.connection.ConnectionList;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="save" id="org.techgaun.android.remotepcdroid.client.connection/Connection#save(Landroid.content.SharedPreferences.Editor;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/Connection-Soyatec::Import->org.techgaun.android.remotepcdroid.client.app/RemotePCDroid" source="//@children.17" target="//@children.2" targetEnd="//@children.17/@sourceConnections.0/@children.2" label="//@children.17/@sourceConnections.0/@children.0" sourceEnd="//@children.17/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="321,166" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/Connection-Soyatec::Import->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection" source="//@children.17" target="//@children.16" targetEnd="//@children.17/@sourceConnections.1/@children.2" label="//@children.17/@sourceConnections.1/@children.0" sourceEnd="//@children.17/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="198,207" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="121,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/Connection-Soyatec::Import->org.techgaun.android.remotepcdroid.client.connection/ConnectionList" source="//@children.17" target="//@children.0" targetEnd="//@children.17/@sourceConnections.2/@children.2" label="//@children.17/@sourceConnections.2/@children.0" sourceEnd="//@children.17/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="9,207" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="311,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/Connection->org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi" source="//@children.17" target="//@children.18" targetEnd="//@children.17/@sourceConnections.3/@children.2" label="//@children.17/@sourceConnections.3/@children.0" sourceEnd="//@children.17/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="149,207" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/Connection-Soyatec::Access->org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnEditActivity" source="//@children.17" target="//@children.20" targetEnd="//@children.17/@sourceConnections.4/@children.2" label="//@children.17/@sourceConnections.4/@children.0" sourceEnd="//@children.17/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Access»" size="52,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="122,68"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.17/@sourceConnections.3 //@children.0/@sourceConnections.1 //@children.19/@sourceConnections.1" name="ConnectionWifi" location="180,510" size="321,189" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi">
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="host" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi#host"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="port" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi#port"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,90">
+      <children xsi:type="editmodel:MethodEditModel" name="ConnectionWifi" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi#ConnectionWifi()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="connect" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi#connect(Lorg.techgaun.android.remotepcdroid.client.app.RemotePCDroid;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="edit" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi#edit(Landroid.content.Context;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="load" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi#load(Landroid.content.SharedPreferences;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="save" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi#save(Landroid.content.SharedPreferences.Editor;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/Connection&lt;-org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi" source="//@children.18" target="//@children.17" targetEnd="//@children.18/@sourceConnections.0/@children.1" sourceEnd="//@children.18/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="151,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="169,207"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi-Soyatec::Import->org.techgaun.android.remotepcdroid.client.app/RemotePCDroid" source="//@children.18" target="//@children.2" targetEnd="//@children.18/@sourceConnections.1/@children.2" label="//@children.18/@sourceConnections.1/@children.0" sourceEnd="//@children.18/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="321,94" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,184"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi-Soyatec::Import->org.techgaun.remotepcdroid.protocol/RemotePCDroidConnection" source="//@children.18" target="//@children.16" targetEnd="//@children.18/@sourceConnections.2/@children.2" label="//@children.18/@sourceConnections.2/@children.0" sourceEnd="//@children.18/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="180,189" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="121,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi->org.techgaun.remotepcdroid.protocol.tcp/RemotePCDroidConnectionTcp" source="//@children.18" target="//@children.15" targetEnd="//@children.18/@sourceConnections.3/@children.2" label="//@children.18/@sourceConnections.3/@children.0" sourceEnd="//@children.18/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="34,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="6,189" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="261,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi->org.techgaun.android.remotepcdroid.client.connection/Connection" source="//@children.18" target="//@children.17" targetEnd="//@children.18/@sourceConnections.4/@children.2" label="//@children.18/@sourceConnections.4/@children.0" sourceEnd="//@children.18/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="321,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,207"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RemotePCDroidConnWifiEditActivity" location="165,165" size="316,30" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnWifiEditActivity">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnEditActivity&lt;-org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnWifiEditActivity" source="//@children.19" target="//@children.20" targetEnd="//@children.19/@sourceConnections.0/@children.1" sourceEnd="//@children.19/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,68"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnWifiEditActivity->org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi*org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnWifiEditActivity-Soyatec::Import->org.techgaun.android.remotepcdroid.client.connection/ConnectionWifi" source="//@children.19" target="//@children.18" targetEnd="//@children.19/@sourceConnections.1/@children.2" label="//@children.19/@sourceConnections.1/@children.0" sourceEnd="//@children.19/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnWifiEditActivity->org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnEditActivity" source="//@children.19" target="//@children.20" targetEnd="//@children.19/@sourceConnections.2/@children.2" label="//@children.19/@sourceConnections.2/@children.0" sourceEnd="//@children.19/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="163,68"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.19/@sourceConnections.0 //@children.17/@sourceConnections.4 //@children.19/@sourceConnections.2" name="RemotePCDroidConnEditActivity" location="180,45" size="286,68" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnEditActivity">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onClick" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnEditActivity#onClick(Landroid.view.View;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnEditActivity->org.techgaun.android.remotepcdroid.client.connection/Connection*org.techgaun.android.remotepcdroid.client.activity.connection/RemotePCDroidConnEditActivity-Soyatec::Import->org.techgaun.android.remotepcdroid.client.connection/Connection" source="//@children.20" target="//@children.17" targetEnd="//@children.20/@sourceConnections.0/@children.2" label="//@children.20/@sourceConnections.0/@children.0" sourceEnd="//@children.20/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,68" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" properties="wireOptions=5;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

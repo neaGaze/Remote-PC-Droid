@@ -1,0 +1,83 @@
+<class-diagram version="1.0.7" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.connection.RemotePCDroidConnWifiEditActivity" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/connection/RemotePCDroidConnWifiEditActivity.java" 
+    binary="false">    
+    <position x="1" y="309" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.connection.RemotePCDroidConnEditActivity" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/connection/RemotePCDroidConnEditActivity.java" 
+    binary="false">    
+    <position x="1" y="-108" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.connection.RemotePCDroidConnListActivity" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/connection/RemotePCDroidConnListActivity.java" 
+    binary="false">    
+    <position x="318" y="-12" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.connection.RemotePCDroidConnListActivity.ConnectionListAdapter" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/connection/RemotePCDroidConnListActivity.java" 
+    binary="false">    
+    <position x="303" y="325" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.connection.RemotePCDroidConnListActivity.ConnectionListAdapter.ConnectionViewHolder" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/connection/RemotePCDroidConnListActivity.java" 
+    binary="false">    
+    <position x="16" y="478" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <nesting id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <association id="7">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="8" name="adapter"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

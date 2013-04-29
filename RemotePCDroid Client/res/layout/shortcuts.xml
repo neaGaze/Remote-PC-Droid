@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnShutDown"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:text="Shutdown Server PC" />
+
+    <Button
+        android:id="@+id/btnTaskMgr"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/btnShutDown"
+        android:layout_below="@id/btnShutDown"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:text="View Server Tasks"
+         />
+
+    <Button
+        android:id="@+id/btnCloseAllWindows"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/btnTaskMgr"
+        android:layout_below="@id/btnTaskMgr"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:text="Close All Windows" />
+
+    <Button
+        android:id="@+id/btnMinimizeWindows"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/btnCloseAllWindows"
+        android:layout_below="@id/btnCloseAllWindows"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:text="Minimize All Windows" />
+
+</RelativeLayout>

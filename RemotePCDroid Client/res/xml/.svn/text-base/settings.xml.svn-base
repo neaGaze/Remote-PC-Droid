@@ -1,0 +1,98 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/text_control">
+		<EditTextPreference
+			android:key="control_sensitivity"
+			android:inputType="numberDecimal"
+			android:defaultValue="0.7"
+			android:title="@string/text_sensitivity" />
+		<PreferenceScreen
+			android:title="@string/text_advanced_control">
+			<EditTextPreference
+				android:key="control_acceleration"
+				android:inputType="numberDecimal"
+				android:defaultValue="1.5"
+				android:title="@string/text_acceleration" />
+			<EditTextPreference
+				android:key="buttons_size"
+				android:inputType="numberDecimal"
+				android:defaultValue="50"
+				android:title="@string/text_buttons_size" />
+			<EditTextPreference
+				android:key="wheel_bar_width"
+				android:inputType="numberDecimal"
+				android:defaultValue="50"
+				android:title="@string/text_wheel_bar_width" />
+			<EditTextPreference
+				android:key="control_click_delay"
+				android:inputType="number"
+				android:defaultValue="150"
+				android:title="@string/text_click_delay" />
+			<EditTextPreference
+				android:key="control_hold_delay"
+				android:inputType="number"
+				android:defaultValue="500"
+				android:title="@string/text_hold_delay" />
+			<EditTextPreference
+				android:key="control_immobile_distance"
+				android:inputType="numberDecimal"
+				android:defaultValue="10"
+				android:title="@string/text_immobile_distance" />
+		</PreferenceScreen>
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/text_feedback">
+		<CheckBoxPreference
+			android:key="feedback_sound"
+			android:defaultValue="false"
+			android:title="@string/text_sound" />
+		<CheckBoxPreference
+			android:key="feedback_vibration"
+			android:defaultValue="true"
+			android:title="@string/text_vibration" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/text_miscellaneous">
+		<CheckBoxPreference
+			android:key="fullscreen"
+			android:defaultValue="false"
+			android:title="@string/text_fullscreen" />
+		<CheckBoxPreference
+			android:key="keep_screen_on"
+			android:defaultValue="false"
+			android:title="@string/text_keep_screen_on" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/text_screen_capture">
+		<CheckBoxPreference
+			android:key="screenCapture_enabled"
+			android:defaultValue="false"
+			android:title="@string/text_capture_enabled" />
+		<PreferenceScreen
+			android:title="@string/text_advanced_screen_capture">
+			<ListPreference
+				android:key="screenCapture_format"
+				android:entries="@array/screenCapture_format_name"
+				android:entryValues="@array/screenCapture_format_id"
+				android:defaultValue="png"
+				android:title="@string/text_capture_format" />
+			<CheckBoxPreference
+				android:key="screenCapture_cursor_enabled"
+				android:defaultValue="true"
+				android:title="@string/text_cursor_enabled" />
+			<EditTextPreference
+				android:key="screenCapture_cursor_size"
+				android:inputType="numberDecimal"
+				android:defaultValue="3"
+				android:title="@string/text_cursor_size" />
+		</PreferenceScreen>
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/text_debug">
+		<CheckBoxPreference
+			android:key="debug_enabled"
+			android:defaultValue="false"
+			android:title="@string/text_debug" />
+	</PreferenceCategory>
+</PreferenceScreen>

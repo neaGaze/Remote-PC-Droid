@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="RemotePCDroid Server" default="build">
+	<!-- <taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" classpath="../launch4j/launch4j.jar:../launch4j/lib/xstream.jar" />
+ -->
+	<target name="build">
+		<antcall target="export" />
+		<!--<antcall target="javadoc" />-->
+	</target>
+
+	<target name="export">
+		<mkdir dir="export/RemotePCDroid-Server" />
+
+		<antcall target="libraries" />
+		<antcall target="jar" />
+		<!--  <antcall target="windows-exe" />
+		<antcall target="windows-exe-debug" />-->
+		<antcall target="zip" />
+	</target>
+
+	<target name="libraries">
+		<copy todir="export/RemotePCDroid-Server">
+			<fileset dir="lib" />
+		</copy>
+	</target>
+
+	<target name="jar">
+		<jar destfile="export/RemotePCDroid-Server/RemotePCDroid-Server.jar">
+			<fileset dir="bin" />
+			<fileset dir="../RemotePCDroid Protocol/bin" />
+			<manifest>
+				<attribute name="Main-Class" value="org.techgaun.desktop.remotepcdroidserver.RemotePCDroidServerApp" />
+			</manifest>
+		</jar>
+	</target>
+	<target name="zip">
+		<zip destfile="export/RemotePCDroid-Server.zip" basedir="export" includes="RemotePCDroid-Server/*" />
+	</target>
+
+	<target name="javadoc">
+		<mkdir dir="javadoc" />
+		<javadoc destdir="javadoc">
+			<fileset dir="src" />
+			<fileset dir="../RemotePCDroid Protocol/src" />
+			<link href="http://java.sun.com/javase/6/docs/api/" />
+		</javadoc>
+	</target>
+</project>

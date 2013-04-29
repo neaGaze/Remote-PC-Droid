@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="PRemoteDroid Server" default="build">
+	<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" classpath="../launch4j/launch4j.jar:../launch4j/lib/xstream.jar" />
+
+	<target name="build">
+		<antcall target="export" />
+		<!--<antcall target="javadoc" />-->
+	</target>
+
+	<target name="export">
+		<mkdir dir="export/PRemoteDroid-Server" />
+
+		<antcall target="libraries" />
+		<antcall target="jar" />
+		<antcall target="windows-exe" />
+		<antcall target="windows-exe-debug" />
+		<antcall target="zip" />
+	</target>
+
+	<target name="libraries">
+		<copy todir="export/PRemoteDroid-Server">
+			<fileset dir="lib" />
+		</copy>
+	</target>
+
+	<target name="jar">
+		<jar destfile="export/PRemoteDroid-Server/PRemoteDroid-Server.jar">
+			<fileset dir="bin" />
+			<fileset dir="../PRemoteDroid Protocol/bin" />
+			<manifest>
+				<attribute name="Class-Path" value="bluecove-gpl-2.1.0.jar bluecove-2.1.0.jar" />
+				<attribute name="Main-Class" value="org.pierre.remotedroid.server.PRemoteDroidServerApp" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="windows-exe">
+		<launch4j>
+			<config outfile="export\PRemoteDroid-Server\PRemoteDroid-Server.exe" headertype="gui" jarpath="PRemoteDroid-Server.jar" dontwrapjar="true" downloadurl="http://java.com/download">
+				<jre minVersion="1.6.0" />
+			</config>
+		</launch4j>
+	</target>
+
+	<target name="windows-exe-debug">
+		<launch4j>
+			<config outfile="export\PRemoteDroid-Server\PRemoteDroid-Server-debug.exe" headertype="console" jarpath="PRemoteDroid-Server.jar" dontwrapjar="true" downloadurl="http://java.com/download">
+				<jre minVersion="1.6.0" />
+			</config>
+		</launch4j>
+	</target>
+
+	<target name="zip">
+		<zip destfile="export/PRemoteDroid-Server.zip" basedir="export" includes="PRemoteDroid-Server/*" />
+	</target>
+
+	<target name="javadoc">
+		<mkdir dir="javadoc" />
+		<javadoc destdir="javadoc">
+			<fileset dir="src" />
+			<fileset dir="../PRemoteDroid Protocol/src" />
+			<link href="http://java.sun.com/javase/6/docs/api/" />
+		</javadoc>
+	</target>
+</project>

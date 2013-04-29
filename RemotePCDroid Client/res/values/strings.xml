@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="app_name">RemotePCDroid</string>
+	<string
+		name="text_keyboard">Keyboard</string>
+	<string
+		name="text_shortcuts">Shortcuts</string>
+	<string
+		name="text_settings">Settings</string>
+	<string
+		name="text_get_server">Get server</string>
+	<string
+		name="text_help">Help</string>
+	<string
+		name="text_file_explorer">File System Explorer</string>
+	<string
+		name="text_refresh">Refresh</string>
+	<string
+		name="text_explore_roots">Explore Root</string>
+	<string
+		name="text_help_description">Description :</string>
+	<string
+		name="text_help_usage">Usage :</string>
+	<string
+		name="text_help_install">Install :</string>
+	<string
+		name="text_help_description_content">
+	    RemotePCDroid allows you to use your android phone as a remote PC controller over Wi-Fi.\nMajor Features\n - Mouse Control\n - Screen Capture\n - Computer File System Browser\nप्रयोगको लागि धन्यवाद!!!
+	</string>
+	<string
+		name="text_help_install_content">Run the server in your PC powered by Linux\nRequires JAVA(Tested on OpenJDK)</string>
+	<string
+		name="text_help_usage_content">Drag and hold on screen for mouse movement.\n\nClick on screen briefly for click simulation.\n\nYou can hold the click by pressing and holding on screen.\nAfter the vibration, you can move.\nClick briefly to release your click.\n\nManual buttons allow left, right click and wheel. For wheel, use right corner of the screen\n</string>
+	<string
+		name="text_connection">Connection</string>
+	<string
+		name="text_connections">Servers</string>
+	<string
+		name="text_control">Control</string>
+	<string
+		name="text_advanced_control">Advanced Control</string>
+	<string
+		name="text_sensitivity">Sensitivity</string>
+	<string
+		name="text_acceleration">Acceleration</string>
+	<string
+		name="text_click_delay">Click delay</string>
+	<string
+		name="text_hold_delay">Hold delay</string>
+	<string
+		name="text_feedback">Effects</string>
+	<string
+		name="text_sound">Sound</string>
+	<string
+		name="text_vibration">Vibration</string>
+	<string
+		name="text_screen_capture">Remote Screen</string>
+	<string
+		name="text_advanced_screen_capture">Advanced</string>
+	<string
+		name="text_capture_enabled">Enable Capture</string>
+	<string
+		name="text_capture_format">Image Type</string>
+	<string-array
+		name="screenCapture_format_id">
+		<item>jpg</item>
+		<item>png</item>
+	</string-array>
+	<string-array
+		name="screenCapture_format_name">
+		<item>JPG</item>
+		<item>PNG</item>
+	</string-array>
+	<string-array
+	    name="cursor_color_id">
+	    <item>RED</item>
+	    <item>GREEN</item>
+	    <item>BLUE</item>
+	    <item>BLACK</item>
+	</string-array>
+	<string-array
+	    name="cursor_color_name">
+	    <item>Red</item>
+	    <item>Green</item>
+	    <item>Blue</item>
+	    <item>Black</item>
+	</string-array>
+	<string
+		name="text_cursor_enabled">Enable Cursor</string>
+	<string
+	    name="text_cursor_color">Cursor Color</string>
+	<string
+		name="text_cursor_size">Cursor size</string>
+	<string
+		name="text_miscellaneous">Others</string>
+	<string
+		name="text_fullscreen">Fullscreen</string>
+	<string
+		name="text_keep_screen_on">Prevent Light Off</string>
+	<string
+		name="text_first_run">First run</string>
+	<string
+		name="text_reset_preferences">Reset preferences</string>
+	<string
+		name="text_connection_established">Connection is established</string>
+	<string
+		name="text_connection_closed">Connection has been closed</string>
+	<string
+		name="text_connection_refused">Connection refused. Server running?</string>
+	<string
+		name="text_illegal_connection_parameter">Illegal connection parameter</string>
+	<string
+		name="text_authenticated">Login successful</string>
+	<string
+		name="text_not_authenticated">Wrong password</string>
+	<string
+		name="text_first_run_dialog">Since you are launching the app for first time, its good idea to read help.\nWant to read help?</string>
+	<string
+		name="text_no_connection">No connection\nPress the \"Menu\" button to add a new one</string>
+	<string
+		name="text_no_connection_selected">No connection selected\nPress the \"Menu\" button\nSelect \"Connections\"</string>
+	<string
+		name="text_yes">Yes</string>
+	<string
+		name="text_no">No</string>
+	<string
+		name="text_ok">Ok</string>
+	<string
+		name="text_new">New Connection</string>
+	<string-array
+		name="connection_action_name">
+		<item>Use</item>
+		<item>Edit</item>
+		<item>Remove</item>
+	</string-array>
+	<string
+		name="text_wifi">Add new Server</string>
+	<string
+		name="text_name">Name : </string>
+	<string
+		name="text_password">Password : </string>
+	<string
+		name="text_host">Host : </string>
+	<string
+		name="text_port">Port : </string>
+	<string
+		name="text_address">Address : </string>
+	<string
+		name="text_save">Save</string>
+	<string
+		name="text_new_connection">New Server</string>
+	<string
+		name="text_hint_host">192.168.0.1</string>
+	<string
+	    name="text_shutdown">Poweroff PC</string>
+	<string
+	    name="text_taskmgr">Task Manager</string>
+	<string
+	    name="text_closewindows">Close All Windows</string>
+	<string
+	    name="text_minimizewindows">Minimize All Windows</string>
+	<string
+	    name="text_unicode">Unicode</string>
+	<string
+	    name="text_unicode_nepali">Nepali</string>
+</resources>

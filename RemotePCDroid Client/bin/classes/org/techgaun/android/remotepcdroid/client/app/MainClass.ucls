@@ -1,0 +1,39 @@
+<class-diagram version="1.0.7" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.app.RemotePCDroid.CloseConnectionScheduler" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/app/RemotePCDroid.java" binary="false">    
+    <position x="523" y="246" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="org.techgaun.android.remotepcdroid.client.app.RemotePCDroid" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/app/RemotePCDroid.java" binary="false">    
+    <position x="182" y="242" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association id="3">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="4" name="closeConnectionScheduler"/>      
+      <multiplicity id="5" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="6">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

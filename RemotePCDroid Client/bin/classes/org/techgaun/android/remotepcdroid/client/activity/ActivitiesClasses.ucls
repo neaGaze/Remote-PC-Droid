@@ -1,0 +1,71 @@
+<class-diagram version="1.0.7" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="false" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.RemotePCDroidSettingsActivity" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/RemotePCDroidSettingsActivity.java" 
+    binary="false">    
+    <position x="52" y="-76" width="230" height="241"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.RemotePCDroidShortcutsActivity" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/RemotePCDroidShortcutsActivity.java" 
+    binary="false">    
+    <position x="322" y="-76" width="216" height="113"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.RemotePCDroidFEActivity" project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/RemotePCDroidFEActivity.java" 
+    binary="false">    
+    <position x="157" y="372" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.RemotePCDroidHelpActivity" project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/RemotePCDroidHelpActivity.java" 
+    binary="false">    
+    <position x="432" y="94" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.RemotePCDroidControlActivity" 
+    project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/RemotePCDroidControlActivity.java" 
+    binary="false">    
+    <position x="439" y="332" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" 
+    name="org.techgaun.android.remotepcdroid.client.activity.RemotePCDroidInit" project="RemotePCDroid Client" 
+    file="/RemotePCDroid Client/src/org/techgaun/android/remotepcdroid/client/activity/RemotePCDroidInit.java" 
+    binary="false">    
+    <position x="1392" y="-76" width="214" height="145"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
